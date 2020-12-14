@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CountryStatus"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:theme="@style/AppThemeCustom"
+    >
+
+    <ImageView
+        android:id="@+id/CountryImage"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/country_s_image"
+        />
+
+    <TextView
+        android:id="@+id/continent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="continent"
+        android:textStyle="bold"
+        style="@style/CountryStatusTexts"
+        />
+
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="population"
+        android:textStyle="bold"
+        style="@style/CountryStatusTexts"
+        />
+
+    <TextView
+        android:id="@+id/txtCasesToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Cases today"
+        style="@style/CountryStatusTexts"
+        />
+    <TextView
+        android:id="@+id/txtDeathsToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Deaths today"
+        style="@style/CountryStatusTexts"
+        />
+
+    <TextView
+        android:id="@+id/txtRecoveredToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Recovered today"
+        style="@style/CountryStatusTexts"
+        />
+
+
+    <TextView
+        android:id="@+id/txtTotalDeath"
+        style="@style/CountryStatusTexts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Total Deaths" />
+
+    <TextView
+        android:id="@+id/txtTotalCases"
+        style="@style/CountryStatusTexts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Total Cases" />
+    <TextView
+        android:id="@+id/txtTotalRecovered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Total Recovered"
+        style="@style/CountryStatusTexts"
+        />
+
+</LinearLayout>

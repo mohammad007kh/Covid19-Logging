@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RestApi Test</string>
+    <string name="number_of_cases">Number of cases</string>
+    <string name="appLabel">Covid-19 Online Status</string>
+    <string name="country_s_image">Country\'s image</string>
+</resources>

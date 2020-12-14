@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/country_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginHorizontal="5dp"
+    android:background="@drawable/shape"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/ivFlag"
+        android:layout_width="182dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        tools:srcCompat="@tools:sample/avatars"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="5dp"
+            android:text="Country Name"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#DCDCDC"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvCases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#B5B5B5"
+            android:text="@string/number_of_cases"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

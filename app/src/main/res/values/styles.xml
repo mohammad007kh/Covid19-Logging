@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeCustom" parent="AppTheme">
+        <item name="android:background">#21232D</item>
+    </style>
+
+    <style name="CountryInfoTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">#21232D</item>
+    </style>
+
+    <style name="CountryStatusTexts">
+        <item name="android:textColor">#ECECEC</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_marginVertical" tools:ignore="NewApi">5dp</item>
+        <item name="android:layout_marginHorizontal" tools:ignore="NewApi">15dp</item>
+    </style>
+
+</resources>
